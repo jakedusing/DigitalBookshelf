@@ -26,6 +26,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return String.format("Title: %s, Author: %s, Genre: %s", title, author, genre);
+        return "\"" + title + "\" by " + author + " [" + genre + "]";
     }
 }
