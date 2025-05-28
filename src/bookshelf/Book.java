@@ -5,11 +5,13 @@ public class Book {
     private String title;
     private String author;
     private String genre;
+    private int pages;
 
-    public Book(String title, String author, String genre) {
+    public Book(String title, String author, String genre, int pages) {
         this.title = title;
         this.author = author;
         this.genre = genre;
+        this.pages = pages;
     }
 
     public String getTitle() {
@@ -22,6 +24,10 @@ public class Book {
 
     public String getGenre() {
         return genre;
+    }
+
+    public int getPages() {
+        return pages;
     }
 
     @Override

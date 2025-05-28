@@ -85,7 +85,7 @@ public class Bookshelf {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(",");
-                if (parts.length == 3) {
+                if (parts.length == 4) {
                     String title = parts[0].replace(".", ",");
                     String author = parts[1].replace("\\,", ",");
                     String genre = parts[2].replace("\\,", ",");
