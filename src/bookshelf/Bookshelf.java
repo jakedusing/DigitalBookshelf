@@ -68,8 +68,9 @@ public class Bookshelf {
                 String title = book.getTitle().replace(",", ".");
                 String author = book.getAuthor().replace(",", "\\,");
                 String genre = book.getGenre().replace(",", "\\,");
+                String pages = String.valueOf(book.getPages());
 
-                writer.write(title + "," + author + "," + genre);
+                writer.write(title + "," + author + "," + genre + "," + pages);
                 writer.newLine();
             }
             System.out.println("Books saved to file: " + filename);
