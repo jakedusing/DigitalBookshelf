@@ -7,11 +7,11 @@ public class Main {
 
         Bookshelf myBookshelf = new Bookshelf();
 
-        myBookshelf.addBook(new Book("Lost Stars", "Claudia Gray", "Science Fiction"));
-        myBookshelf.addBook(new Book("Animal Crossing", "Kelsey Lewin", "Gaming"));
-        myBookshelf.addBook(new Book("Rebel Rising", "Beth Revis", "Science Fiction"));
+        myBookshelf.addBook(new Book("Lost Stars", "Claudia Gray", "Science Fiction", 300));
+        myBookshelf.addBook(new Book("Animal Crossing", "Kelsey Lewin", "Gaming", 190));
+        myBookshelf.addBook(new Book("Rebel Rising", "Beth Revis", "Science Fiction", 243));
         myBookshelf.addBook(new Book("Live Learn Love Well: Lessons from a Life of Progress Not Perfection",
-                "Emma Lovewell", "Memoir"));
+                "Emma Lovewell", "Memoir", 203));
 
         myBookshelf.displayBooks();
 

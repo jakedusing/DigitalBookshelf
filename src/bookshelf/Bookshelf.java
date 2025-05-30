@@ -90,7 +90,8 @@ public class Bookshelf {
                     String title = parts[0].replace(".", ",");
                     String author = parts[1].replace("\\,", ",");
                     String genre = parts[2].replace("\\,", ",");
-                    books.add(new Book(title, author, genre));
+                    int pages = Integer.parseInt(parts[3].replace("\\", ","));
+                    books.add(new Book(title, author, genre, pages));
                 }
             }
             System.out.println("Books loaded from file: " + filename);
