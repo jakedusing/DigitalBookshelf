@@ -24,6 +24,8 @@ public class Main {
         // display books to confirm
         myBookshelf.displayBooks();
 
+        myBookshelf.searchBooks("Rebel");
+
         /*myBookshelf.displayBooks();
 
         System.out.println();
